@@ -1,0 +1,104 @@
+/* General styles */
+.logout-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .btn-danger {
+    margin: 10px;
+    padding: 12px 24px; /* Increase padding for a bigger button */
+    font-size: 16px;    /* Increase font size */
+    border-radius: 5px; /* Optional: Rounded corners for better aesthetics */
+  }
+  
+  .back-container {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Corrected spacing here */
+  }
+  
+  .btn {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  
+  /* Full-width title at the top of the page */
+  .page-title-container {
+    text-align: center; /* Center the title horizontally */
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 36px; /* Larger font size for the title */
+    color: white;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: center; /* Center the movie details and similar movies */
+    gap: 20px; /* Space between the two sections */
+    padding: 20px;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px; /* Adjusted width for the movie details container */
+  }
+  
+  .movie-poster-large {
+    width: 180px; /* Adjusted width for the movie poster */
+    height: auto;
+    margin-bottom: 10px; /* Reduced margin for a tighter layout */
+  }
+  
+  h1 {
+    font-size: 20px; /* Smaller font size for the movie title */
+    margin-bottom: 5px; /* Reduced margin */
+    color: white;
+  }
+  
+  p {
+    font-size: 14px; /* Smaller font size for paragraph text */
+    margin: 5px 0; /* Reduced margin */
+    color: white;
+  }
+  
+  h3 {
+    margin-top: 15px; /* Reduced margin */
+    font-size: 18px; /* Smaller font size for section headings */
+    color: white;
+  }
+  
+  .similar-movies-container {
+    width: 300px; /* Fixed width for the similar movies container */
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust columns */
+    gap: 10px; /* Space between items */
+  }
+  
+  li {
+    font-size: 14px; /* Smaller font size for list items */
+    margin: 0;
+    color: white;
+  }
+  

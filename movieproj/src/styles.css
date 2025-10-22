@@ -1,0 +1,19 @@
+body {
+    background-image: url('assets/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .container {
+    background-color: rgba(128, 128, 128, 0.8); /* Semi-transparent grey color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px; /* Fixed width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: to make the form stand out more */
+  }

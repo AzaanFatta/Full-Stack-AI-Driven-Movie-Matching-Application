@@ -1,0 +1,96 @@
+/* home.component.css */
+.logout-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .btn-danger {
+    margin: 10px;
+    padding: 12px 24px; /* Increase padding for a bigger button */
+    font-size: 16px;    /* Increase font size */
+    margin: 10px;
+    border-radius: 5px; /* Optional: Rounded corners for better aesthetics */
+  }
+  
+
+
+
+
+
+
+  /* Center-align container and its contents */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  /* Center-align header and subheader */
+  .header {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin to separate from search bar */
+  }
+  
+  /* Center-align search bar */
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin to separate from movie list */
+  }
+  
+  .search-container input {
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for input field */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin below input field */
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+  }
+  
+  /* Ensure movies container is centered */
+  .movies-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px 0; /* Add some padding for better spacing */
+  }
+  
+  .movies-list {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to new lines */
+    justify-content: flex-start; /* Align items to the start of the container */
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; /* Increase margin for more space */
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .movie-poster {
+    width: 150px; /* Set a fixed width for consistency */
+    height: 225px; /* Adjust height to maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border-radius: 4px;
+  }
+  
+  .movie-details {
+    text-align: center;
+    margin-top: 10px; /* Increase margin for more space */
+  }
+  
+  .movie-details h2 {
+    font-size: 1.1rem; /* Make movie titles slightly smaller */
+    margin: 0;
+  }
+  
+  .movie-details p {
+    font-size: 0.9rem; /* Optional: Make year text slightly smaller if desired */
+  }

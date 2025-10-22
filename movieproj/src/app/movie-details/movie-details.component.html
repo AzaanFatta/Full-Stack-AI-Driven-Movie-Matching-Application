@@ -1,0 +1,31 @@
+<div class="logout-container">
+    <button class="btn btn-danger" (click)="logout()">Logout</button>
+  </div>
+  
+  <div class="back-container">
+    <button class="btn btn-primary" (click)="back()">Go Back</button>
+  </div>
+  
+  <div class="page-title-container">
+    <div class="page-title">
+      Information on {{ movie.Title }}!
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="movie-details">
+      <img [src]="movie.Poster" alt="{{ movie.Title }}" class="movie-poster-large" />
+      <h1>{{ movie.Title }}</h1>
+      <p>{{ movie.Year }}</p>
+      <p><strong>Rating:</strong> {{ movie.imdbRating }}</p>
+      <p><strong>Plot:</strong> {{ movie.Plot }}</p>
+    </div>
+  
+    <div class="similar-movies-container">
+      <h3>Similar Movies By ChatGPT:</h3>
+      <ul>
+        <li *ngFor="let similarMovie of similarMovies">{{ similarMovie }}</li>
+      </ul>
+    </div>
+  </div>
+  
