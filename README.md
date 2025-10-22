@@ -78,8 +78,8 @@ The integration between frontend and backend follows a **clean layered architect
                      │
                      ▼
 ┌────────────────────────────────────────────┐
-│                MySQL Database              │
-│ (User Accounts, Movie Data, Preferences)   │
+│                 Databases                  │
+│ (User Accounts, Movie Data, Movie Info)    │
 └────────────────────────────────────────────┘
 ```
 
